@@ -9,8 +9,7 @@ a resolution outcome, an accounts-receivable status. Each is usually maintained 
 team or system. This project checks whether those fields tell the same story, models the
 claims as a star schema, and quantifies where denied revenue is concentrated by reason.
 
-**The analysis found the three status-tracking fields disagree on 43.5% of claims** — see
-[FINDINGS.md](FINDINGS.md).
+**The analysis found that the Claim Status and Outcome fields disagree on 43.5% of claims, and that the third field (AR Status) uses an incompatible category scheme** — see [FINDINGS.md](FINDINGS.md).
 
 | | |
 |---|---|
